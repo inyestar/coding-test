@@ -4,7 +4,7 @@ import org.springframework.util.StringUtils;
 
 import java.util.*;
 
-public class AbstractCodingTest implements CodingTest{
+public abstract class AbstractCodingTest implements CodingTest{
 
     private static final String DELIMETER = "=";
 
@@ -52,7 +52,5 @@ public class AbstractCodingTest implements CodingTest{
     }
 
     @Override
-    public void test() throws IllegalAccessException {
-        throw new IllegalAccessException("This is not implementation");
-    }
+    public abstract void test();
 }
