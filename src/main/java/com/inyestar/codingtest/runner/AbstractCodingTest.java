@@ -6,7 +6,8 @@ import java.util.*;
 
 public abstract class AbstractCodingTest implements CodingTest{
 
-    private static final String DELIMETER = "=";
+    private static final String DE = "=";
+    private static final int LEN = 2;
 
     protected Map<String, Integer> getInputAsMap(List<String> nameList) {
         int countOfInput = nameList.size();
@@ -33,8 +34,8 @@ public abstract class AbstractCodingTest implements CodingTest{
         if(!StringUtils.hasText(line)) {
             return null;
         }
-        String[] keyValue = StringUtils.split(line, DELIMETER);
-        if(Objects.isNull(keyValue) || keyValue.length != 2) {
+        String[] keyValue = StringUtils.split(line, DE);
+        if(Objects.isNull(keyValue) || keyValue.length != LEN) {
             return null;
         }
         if(!key.equals(keyValue[0])) {
