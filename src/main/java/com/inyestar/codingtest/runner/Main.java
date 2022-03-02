@@ -9,6 +9,7 @@ import java.util.Optional;
 
 public class Main {
 
+    // TODO 패키지 분리, String[] 형태로 파싱말고 Pair로 변경
     private static final String BASE_PACKAGE = "com.inyestar.codingtest";
 
     /**
