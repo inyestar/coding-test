@@ -1,14 +1,12 @@
 package com.inyestar.codingtest.inflearn;
 
 import com.inyestar.codingtest.runner.AbstractCodingTest;
-import com.inyestar.codingtest.runner.Run;
 
 import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
 import java.util.stream.IntStream;
 
-@Run
 public class D20220303 extends AbstractCodingTest {
     @Override
     public void test() {
