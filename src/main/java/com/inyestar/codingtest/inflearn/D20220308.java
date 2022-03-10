@@ -1,12 +1,10 @@
 package com.inyestar.codingtest.inflearn;
 
 import com.inyestar.codingtest.runner.AbstractCodingTest;
-import com.inyestar.codingtest.runner.Run;
 
 import java.time.LocalDateTime;
 import java.util.Scanner;
 
-@Run
 public class D20220308 extends AbstractCodingTest {
 
     private static final String DASH = "-";
