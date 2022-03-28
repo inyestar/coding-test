@@ -1,9 +1,7 @@
 package com.inyestar.codingtest.inflearn;
 
 import com.inyestar.codingtest.runner.AbstractCodingTest;
-import com.inyestar.codingtest.runner.Run;
 
-@Run
 public class D20220321 extends AbstractCodingTest {
     @Override
     public void test() {
