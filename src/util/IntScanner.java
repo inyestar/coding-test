@@ -25,7 +25,7 @@ public class IntScanner {
     }
 
     private void notice() {
-        System.out.printf("%d 갯수만큼 숫자를 입력하세요.", COUNT);
+        System.out.printf("%d개의 숫자를 입력하세요.", COUNT);
     }
 
     public int[] getInput() {
